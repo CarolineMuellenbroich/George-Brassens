@@ -790,17 +790,16 @@
 			<Item Name="Available interfaces.ctl" Type="VI" URL="../StageSPIM/PI drivers/Low Level/Communication.llb/Available interfaces.ctl"/>
 			<Item Name="Build command substring.vi" Type="VI" URL="../StageSPIM/PI drivers/Low Level/Support.llb/Build command substring.vi"/>
 			<Item Name="Build query command substring.vi" Type="VI" URL="../StageSPIM/PI drivers/Low Level/Support.llb/Build query command substring.vi"/>
+			<Item Name="Build SPA command substring.vi" Type="VI" URL="../StageSPIM/PI drivers/Low Level/Support.llb/Build SPA command substring.vi"/>
 			<Item Name="Close connection if open.vi" Type="VI" URL="../StageSPIM/PI drivers/Low Level/Communication.llb/Close connection if open.vi"/>
 			<Item Name="Commanded axes connected?.vi" Type="VI" URL="../StageSPIM/PI drivers/Low Level/Support.llb/Commanded axes connected?.vi"/>
 			<Item Name="Controller names.ctl" Type="VI" URL="../StageSPIM/PI drivers/Low Level/General command.llb/Controller names.ctl"/>
 			<Item Name="CST?.vi" Type="VI" URL="../StageSPIM/PI drivers/Low Level/Special command.llb/CST?.vi"/>
+			<Item Name="CTO.vi" Type="VI" URL="../StageSPIM/PI drivers/Low Level/Special command.llb/CTO.vi"/>
 			<Item Name="Cut out additional spaces.vi" Type="VI" URL="../StageSPIM/PI drivers/Low Level/Support.llb/Cut out additional spaces.vi"/>
 			<Item Name="Define axes to command from boolean array.vi" Type="VI" URL="../StageSPIM/PI drivers/Low Level/Support.llb/Define axes to command from boolean array.vi"/>
 			<Item Name="Define connected axes.vi" Type="VI" URL="../StageSPIM/PI drivers/Low Level/General command.llb/Define connected axes.vi"/>
 			<Item Name="Define connected systems (Array).vi" Type="VI" URL="../StageSPIM/PI drivers/Low Level/General command.llb/Define connected systems (Array).vi"/>
-			<Item Name="DOMUserDefRef.dll" Type="Document" URL="DOMUserDefRef.dll">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
-			</Item>
 			<Item Name="email sender.vi" Type="VI" URL="../dependencies/utilities/email sender.vi"/>
 			<Item Name="ERR?.vi" Type="VI" URL="../StageSPIM/PI drivers/Low Level/General command.llb/ERR?.vi"/>
 			<Item Name="FNL.vi" Type="VI" URL="../StageSPIM/PI drivers/Low Level/Limits.llb/FNL.vi"/>
@@ -840,9 +839,6 @@
 			<Item Name="nivision.dll" Type="Document" URL="nivision.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="nivissvc.dll" Type="Document" URL="nivissvc.dll">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
-			</Item>
 			<Item Name="ONT?.vi" Type="VI" URL="../StageSPIM/PI drivers/Low Level/General command.llb/ONT?.vi"/>
 			<Item Name="PC_wavelength.ctl" Type="VI" URL="../Waveform generator/waveform generator/PC_wavelength.ctl"/>
 			<Item Name="PI Open Interface of one system.vi" Type="VI" URL="../StageSPIM/PI drivers/Low Level/Communication.llb/PI Open Interface of one system.vi"/>
@@ -875,6 +871,7 @@
 			<Item Name="Termination character.ctl" Type="VI" URL="../StageSPIM/PI drivers/Low Level/Communication.llb/Termination character.ctl"/>
 			<Item Name="TMN?.vi" Type="VI" URL="../StageSPIM/PI drivers/Low Level/Limits.llb/TMN?.vi"/>
 			<Item Name="TMX?.vi" Type="VI" URL="../StageSPIM/PI drivers/Low Level/Limits.llb/TMX?.vi"/>
+			<Item Name="TRO.vi" Type="VI" URL="../StageSPIM/PI drivers/Low Level/Special command.llb/TRO.vi"/>
 			<Item Name="TRS?.vi" Type="VI" URL="../StageSPIM/PI drivers/Low Level/Limits.llb/TRS?.vi"/>
 			<Item Name="VEL.vi" Type="VI" URL="../StageSPIM/PI drivers/Low Level/General command.llb/VEL.vi"/>
 			<Item Name="Wait for axes to stop.vi" Type="VI" URL="../StageSPIM/PI drivers/Low Level/Support.llb/Wait for axes to stop.vi"/>
