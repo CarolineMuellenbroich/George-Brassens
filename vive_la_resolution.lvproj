@@ -800,6 +800,9 @@
 			<Item Name="Define axes to command from boolean array.vi" Type="VI" URL="../StageSPIM/PI drivers/Low Level/Support.llb/Define axes to command from boolean array.vi"/>
 			<Item Name="Define connected axes.vi" Type="VI" URL="../StageSPIM/PI drivers/Low Level/General command.llb/Define connected axes.vi"/>
 			<Item Name="Define connected systems (Array).vi" Type="VI" URL="../StageSPIM/PI drivers/Low Level/General command.llb/Define connected systems (Array).vi"/>
+			<Item Name="DOMUserDefRef.dll" Type="Document" URL="DOMUserDefRef.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
 			<Item Name="email sender.vi" Type="VI" URL="../dependencies/utilities/email sender.vi"/>
 			<Item Name="ERR?.vi" Type="VI" URL="../StageSPIM/PI drivers/Low Level/General command.llb/ERR?.vi"/>
 			<Item Name="FNL.vi" Type="VI" URL="../StageSPIM/PI drivers/Low Level/Limits.llb/FNL.vi"/>
@@ -829,7 +832,6 @@
 			<Item Name="MaxPower cluster.ctl" Type="VI" URL="../AOTF_via_DAQ/AOTF/Controls/MaxPower cluster.ctl"/>
 			<Item Name="Mercury_GCS_Configuration_Setup.vi" Type="VI" URL="../StageSPIM/PI drivers/Mercury_GCS_Configuration_Setup.vi"/>
 			<Item Name="MOV.vi" Type="VI" URL="../StageSPIM/PI drivers/Low Level/General command.llb/MOV.vi"/>
-			<Item Name="MOV?.vi" Type="VI" URL="../StageSPIM/PI drivers/Low Level/General command.llb/MOV?.vi"/>
 			<Item Name="mscorlib" Type="VI" URL="mscorlib">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
@@ -837,6 +839,9 @@
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="nivision.dll" Type="Document" URL="nivision.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
+			<Item Name="nivissvc.dll" Type="Document" URL="nivissvc.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="ONT?.vi" Type="VI" URL="../StageSPIM/PI drivers/Low Level/General command.llb/ONT?.vi"/>
@@ -869,11 +874,11 @@
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="Termination character.ctl" Type="VI" URL="../StageSPIM/PI drivers/Low Level/Communication.llb/Termination character.ctl"/>
+			<Item Name="timestamp to file compatible string.vi" Type="VI" URL="../dependencies/utilities/timestamp to file compatible string.vi"/>
 			<Item Name="TMN?.vi" Type="VI" URL="../StageSPIM/PI drivers/Low Level/Limits.llb/TMN?.vi"/>
 			<Item Name="TMX?.vi" Type="VI" URL="../StageSPIM/PI drivers/Low Level/Limits.llb/TMX?.vi"/>
 			<Item Name="TRO.vi" Type="VI" URL="../StageSPIM/PI drivers/Low Level/Special command.llb/TRO.vi"/>
 			<Item Name="TRS?.vi" Type="VI" URL="../StageSPIM/PI drivers/Low Level/Limits.llb/TRS?.vi"/>
-			<Item Name="VEL.vi" Type="VI" URL="../StageSPIM/PI drivers/Low Level/General command.llb/VEL.vi"/>
 			<Item Name="Wait for axes to stop.vi" Type="VI" URL="../StageSPIM/PI drivers/Low Level/Support.llb/Wait for axes to stop.vi"/>
 			<Item Name="Wait for controller ready.vi" Type="VI" URL="../StageSPIM/PI drivers/Low Level/Support.llb/Wait for controller ready.vi"/>
 			<Item Name="Wait for hexapod system axes to stop.vi" Type="VI" URL="../StageSPIM/PI drivers/Low Level/Old commands.llb/Wait for hexapod system axes to stop.vi"/>
