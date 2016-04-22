@@ -874,7 +874,7 @@
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="Termination character.ctl" Type="VI" URL="../StageSPIM/PI drivers/Low Level/Communication.llb/Termination character.ctl"/>
-			<Item Name="timestamp to file compatible string.vi" Type="VI" URL="../dependencies/utilities/timestamp to file compatible string.vi"/>
+			<Item Name="timestamp to file compatible string.vi" Type="VI" URL="../timestamp to file compatible string.vi"/>
 			<Item Name="TMN?.vi" Type="VI" URL="../StageSPIM/PI drivers/Low Level/Limits.llb/TMN?.vi"/>
 			<Item Name="TMX?.vi" Type="VI" URL="../StageSPIM/PI drivers/Low Level/Limits.llb/TMX?.vi"/>
 			<Item Name="TRO.vi" Type="VI" URL="../StageSPIM/PI drivers/Low Level/Special command.llb/TRO.vi"/>
@@ -883,6 +883,204 @@
 			<Item Name="Wait for controller ready.vi" Type="VI" URL="../StageSPIM/PI drivers/Low Level/Support.llb/Wait for controller ready.vi"/>
 			<Item Name="Wait for hexapod system axes to stop.vi" Type="VI" URL="../StageSPIM/PI drivers/Low Level/Old commands.llb/Wait for hexapod system axes to stop.vi"/>
 		</Item>
-		<Item Name="Build Specifications" Type="Build"/>
+		<Item Name="Build Specifications" Type="Build">
+			<Item Name="AOTF" Type="EXE">
+				<Property Name="App_copyErrors" Type="Bool">true</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{E6920681-C80E-4468-9F2D-62ABBC185399}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{C015F0C1-15F9-4AD8-99CB-8BFB98F011AE}</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{7981A1FA-EAAD-4551-8861-AD056A184330}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">AOTF</Property>
+				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">/C/Users/Georges Brassens/Documents/Distrio/executables/aotf</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{57710A96-D6CA-4A66-9DAA-D29F7B292697}</Property>
+				<Property Name="Destination[0].destName" Type="Str">AOTF.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">/C/Users/Georges Brassens/Documents/Distrio/executables/aotf/AOTF.exe</Property>
+				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">/C/Users/Georges Brassens/Documents/Distrio/executables/aotf/data</Property>
+				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Exe_cmdLineArgs" Type="Bool">true</Property>
+				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/AOTF.lvclass/cameleon.ico</Property>
+				<Property Name="Source[0].itemID" Type="Str">{2D91156C-45B0-4087-8A36-B9F9EDEDA712}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/AOTF.lvclass/Main.vi</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">2</Property>
+				<Property Name="TgtF_companyName" Type="Str">Microsoft</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">AOTF</Property>
+				<Property Name="TgtF_fileVersion.major" Type="Int">1</Property>
+				<Property Name="TgtF_internalName" Type="Str">AOTF</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2016 Microsoft</Property>
+				<Property Name="TgtF_productName" Type="Str">AOTF</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{68D1B92A-E2CE-4415-A5E5-09C69B8ECEFF}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">AOTF.exe</Property>
+			</Item>
+			<Item Name="Stack" Type="EXE">
+				<Property Name="App_copyErrors" Type="Bool">true</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{50E4F1DA-2589-4F15-ACB6-8D436C33A6D9}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{4B91DB78-54BC-44DA-A0BC-E9104291B616}</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{88FDBB15-8BE7-4CAF-BFBB-46454E3AC28A}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">Stack</Property>
+				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">/C/Users/Georges Brassens/Documents/Distrio/executables/imagestack</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{F7880063-7BAB-48D3-AE88-94EC9EE5E7CA}</Property>
+				<Property Name="Destination[0].destName" Type="Str">Stack.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">/C/Users/Georges Brassens/Documents/Distrio/executables/imagestack/Stack.exe</Property>
+				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">/C/Users/Georges Brassens/Documents/Distrio/executables/imagestack/data</Property>
+				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Exe_cmdLineArgs" Type="Bool">true</Property>
+				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/ImageStack.lvclass/giraffe.ico</Property>
+				<Property Name="Source[0].itemID" Type="Str">{2D91156C-45B0-4087-8A36-B9F9EDEDA712}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/ImageStack.lvclass/Main.vi</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">2</Property>
+				<Property Name="TgtF_companyName" Type="Str">Microsoft</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">Stack</Property>
+				<Property Name="TgtF_fileVersion.major" Type="Int">1</Property>
+				<Property Name="TgtF_internalName" Type="Str">Stack</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2016 Microsoft</Property>
+				<Property Name="TgtF_productName" Type="Str">Stack</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{4BB76AB7-320D-4941-A29B-071B29C75CFD}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">Stack.exe</Property>
+			</Item>
+			<Item Name="Stages_zebra" Type="EXE">
+				<Property Name="App_copyErrors" Type="Bool">true</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{888018F7-9077-4500-8397-DF3F39B6A131}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{25C3F285-3995-4415-B760-C650DD45F1EE}</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{086BFFBD-524B-49FA-BB64-83BA78DB5190}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">Stages_zebra</Property>
+				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">/C/Users/Georges Brassens/Documents/Distrio/executables/stage_zebra</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{5F28ACFD-1F00-4B38-AE8C-DDE3BAB70911}</Property>
+				<Property Name="Destination[0].destName" Type="Str">Stages_zebra.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">/C/Users/Georges Brassens/Documents/Distrio/executables/stage_zebra/Stages_zebra.exe</Property>
+				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">/C/Users/Georges Brassens/Documents/Distrio/executables/stage_zebra/data</Property>
+				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Exe_cmdLineArgs" Type="Bool">true</Property>
+				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/StageSPIM.lvclass/donkey-icon.ico</Property>
+				<Property Name="Source[0].itemID" Type="Str">{2D91156C-45B0-4087-8A36-B9F9EDEDA712}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/StageSPIM.lvclass/Main.vi</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">2</Property>
+				<Property Name="TgtF_companyName" Type="Str">Microsoft</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">Stages_zebra</Property>
+				<Property Name="TgtF_fileVersion.major" Type="Int">1</Property>
+				<Property Name="TgtF_internalName" Type="Str">Stages_zebra</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2016 Microsoft</Property>
+				<Property Name="TgtF_productName" Type="Str">Stages_zebra</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{3642F6C4-74BF-4B73-B650-CFE31E5C9BE1}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">Stages_zebra.exe</Property>
+			</Item>
+			<Item Name="Tomo" Type="EXE">
+				<Property Name="App_copyErrors" Type="Bool">true</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{0806CBE6-83A6-4C60-BDAA-6177E21A27FE}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{EC05FC29-8CF2-4F11-993B-AB384029E901}</Property>
+				<Property Name="App_winsec.description" Type="Str">http://www.Microsoft.com</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{56DBAAE2-286A-4767-8F8F-1DE286F54909}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">Tomo</Property>
+				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">/C/Users/Georges Brassens/Documents/Distrio/executables/tomo</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{2730FF14-21AA-46AA-BC5B-EDA90149B85A}</Property>
+				<Property Name="Destination[0].destName" Type="Str">Tomo.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">/C/Users/Georges Brassens/Documents/Distrio/executables/tomo/Tomo.exe</Property>
+				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">/C/Users/Georges Brassens/Documents/Distrio/executables/tomo/data</Property>
+				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Exe_cmdLineArgs" Type="Bool">true</Property>
+				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/Tomo.lvclass/lion-icon.ico</Property>
+				<Property Name="Source[0].itemID" Type="Str">{2D91156C-45B0-4087-8A36-B9F9EDEDA712}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Tomo.lvclass/Main.vi</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">2</Property>
+				<Property Name="TgtF_companyName" Type="Str">Microsoft</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">Tomo</Property>
+				<Property Name="TgtF_fileVersion.major" Type="Int">1</Property>
+				<Property Name="TgtF_internalName" Type="Str">Tomo</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2016 Microsoft</Property>
+				<Property Name="TgtF_productName" Type="Str">Tomo</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{E2B95EE2-0A11-4C87-A22F-71845A7DA4A8}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">Tomo.exe</Property>
+			</Item>
+			<Item Name="Waveform" Type="EXE">
+				<Property Name="App_copyErrors" Type="Bool">true</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{584412D1-23E9-4652-B0B7-5AC8BD9CFD92}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{47E7550B-CBB0-4E7E-9CA8-9F58DA9F5186}</Property>
+				<Property Name="App_winsec.description" Type="Str">http://www.Microsoft.com</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{A44424EB-33F1-44A4-B548-478FEC0B2E59}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">Waveform</Property>
+				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">/C/Users/Georges Brassens/Documents/Distrio/executables/waveform</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{5A812155-BE0A-4183-9F1C-3446D3C97EFB}</Property>
+				<Property Name="Destination[0].destName" Type="Str">Waveform.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">/C/Users/Georges Brassens/Documents/Distrio/executables/waveform/Waveform.exe</Property>
+				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">/C/Users/Georges Brassens/Documents/Distrio/executables/waveform/data</Property>
+				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Exe_cmdLineArgs" Type="Bool">true</Property>
+				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/Waveform.lvclass/cavallacio.ico</Property>
+				<Property Name="Source[0].itemID" Type="Str">{2D91156C-45B0-4087-8A36-B9F9EDEDA712}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Waveform.lvclass/Main.vi</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">2</Property>
+				<Property Name="TgtF_companyName" Type="Str">Microsoft</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">Waveform</Property>
+				<Property Name="TgtF_fileVersion.major" Type="Int">1</Property>
+				<Property Name="TgtF_internalName" Type="Str">Waveform</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2016 Microsoft</Property>
+				<Property Name="TgtF_productName" Type="Str">Waveform</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{F87A5C16-97D1-4FE4-BC2C-45B63201B83C}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">Waveform.exe</Property>
+			</Item>
+		</Item>
 	</Item>
 </Project>
